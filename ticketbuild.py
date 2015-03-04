@@ -11,8 +11,8 @@ from reportlab.platypus import Image
 # Easy as pie
 class PDFDocument:
     def __init__(self, filename, fontsize, imagesize):
-        self.width, self.height = pagesizes.A3
-        self.canvas = canvas.Canvas(filename, pagesizes.A3)
+        self.width, self.height = (3508, 4960)
+        self.canvas = canvas.Canvas(filename, (3508, 4960))
         self.fontsize = fontsize
         self.canvas.setFont('Helvetica', fontsize)
         self.imagesize = imagesize
