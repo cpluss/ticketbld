@@ -8,7 +8,7 @@ The output pdf-pagesize will be 3508x4960(A3 at 300ppi) pixels in size.
 The usage is simply straightforward .. 
 
 ```
-python ticketbuilder.py -h
+python ticketbuild.py -h
 ```
 
 for more details about the options you have to supply to the script.
@@ -18,7 +18,7 @@ The sample below will output 300 tickets (numbered 0..300) using test_ticket.png
 for the numerations of (100,100) (from the left corner of test_ticket.png).
 
 ```
-python ticketbuild.py -n 300 -w 600 -x 100 -y 100 -t test_ticket.png
+python ticketbuild.py -n 300 -w 600 -u 300 -x 100 -y 100 -t test_ticket.png
 ```
 
 ## Needed to build
