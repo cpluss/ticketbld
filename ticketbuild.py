@@ -83,7 +83,7 @@ def main():
         y_offset = 0
 
 
-    print("Done generating %s tickets, saving to '%s' ...", opts.num, opts.output)
+    print "Done generating %s tickets, saving to '%s' ..." % (opts.num, opts.output)
     pdf.save()
 
 
